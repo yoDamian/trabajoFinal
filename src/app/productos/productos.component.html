@@ -1,1 +1,9 @@
 <p>productos works!</p>
+<input type="text" [(ngModel)]="producto" id="">
+<button (click)="addProduct()">Agregar Producto</button>
+<div class="productos" *ngFor="let item of productos">
+    {{ item }}
+</div>
+
+  
+  

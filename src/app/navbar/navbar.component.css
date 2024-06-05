@@ -1,0 +1,19 @@
+.container {
+  width: 100vw;
+  display: flex;
+  background-color: blueviolet;
+  height: 60px;
+  justify-content: flex-end;
+  gap: 20px;
+  align-items: center;
+}
+
+.button {
+  cursor: pointer;
+  padding: 10px;
+  background-color: blueviolet;
+}
+
+.button:hover {
+  background-color: rgb(108, 28, 183);
+}

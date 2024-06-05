@@ -5,8 +5,6 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './modal-producto.component.html',
-  styleUrl: './modal-producto.component.css'
+  styleUrl: './modal-producto.component.scss'
 })
-export class ModalProductoComponent {
-
-}
+export class ModalProductoComponent { }
